@@ -1,0 +1,9 @@
+{
+  "item.structurecompassfix.structure_compass": "Structure Compass",
+  "itemGroup.structurecompassfix": "Structure Compass",
+  "structurecompassfix.unset": "No structures selected. Shift-click to configure.",
+  "structurecompassfix.fail": "Could not resolve any structures.",
+  "structurecompassfix.locating": "Locating structures...",
+  "structurecompassfix.notfound": "No structures found within range.",
+  "structurecompassfix.found": "Structure found %s blocks away!"
+}

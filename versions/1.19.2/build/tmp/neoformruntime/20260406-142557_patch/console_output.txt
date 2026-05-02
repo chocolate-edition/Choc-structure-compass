@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Program Files\BellSoft\LibericaJDK-21\bin\java.exe
+ - -jar
+ - C:\Users\xdra1\.gradle\caches\modules-2\files-2.1\io.codechicken\DiffPatch\2.0.0.36\5b32f9baa0c0371c0dc80a3b88794960af0c6b44\DiffPatch-2.0.0.36-all.jar
+ - C:\Users\xdra1\.gradle\caches\neoformruntime\intermediate_results\inject_e6be7dcaeb2364f9623fa8719f976752a140fe90_output.jar
+ - C:\Users\xdra1\.gradle\caches\neoformruntime\artifacts\de\oceanlabs\mcp\mcp_config\1.19.2-20220805.130853\mcp_config-1.19.2-20220805.130853.zip
+ - --prefix
+ - patches/joined/
+ - --patch
+ - --archive
+ - ZIP
+ - --output
+ - ./output.zip
+ - --log-level
+ - WARN
+ - --mode
+ - OFFSET
+ - --archive-rejects
+ - ZIP
+ - --reject
+ - ./outputRejects.zip
+ - --base-path-prefix
+ - a/
+ - --modified-path-prefix
+ - b/
+--------------------------------------------------------------------------------
+

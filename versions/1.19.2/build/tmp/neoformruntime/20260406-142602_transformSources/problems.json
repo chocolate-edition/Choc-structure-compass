@@ -1,0 +1,82 @@
+[
+  {
+    "problemId": {
+      "id": "invalid-at",
+      "displayName": "Invalid",
+      "group": {
+        "id": "access-transformer",
+        "displayName": "Access Transformers"
+      }
+    },
+    "severity": "WARNING",
+    "location": {
+      "file": "C:\\Users\\xdra1\\IdeaProjects\\untitled23\\versions\\1.19.2\\build\\tmp\\neoformruntime\\20260406-142602_transformSources\\ats\\accesstransformer.cfg",
+      "line": 290
+    },
+    "contextualLabel": "Access transformer targeting record class net.minecraft.util.datafix.fixes.StructuresBecomeConfiguredFix$Conversion attempts to widen its access without widening the constructor\u0027s access. You must AT the constructor too: \"public net.minecraft.util.datafix.fixes.StructuresBecomeConfiguredFix$Conversion \u003cinit\u003e(Ljava/util/Map;Ljava/lang/String;)V\""
+  },
+  {
+    "problemId": {
+      "id": "invalid-at",
+      "displayName": "Invalid",
+      "group": {
+        "id": "access-transformer",
+        "displayName": "Access Transformers"
+      }
+    },
+    "severity": "WARNING",
+    "location": {
+      "file": "C:\\Users\\xdra1\\IdeaProjects\\untitled23\\versions\\1.19.2\\build\\tmp\\neoformruntime\\20260406-142602_transformSources\\ats\\accesstransformer.cfg",
+      "line": 278
+    },
+    "contextualLabel": "Access transformer targeting record class net.minecraft.server.MinecraftServer$ReloadableResources attempts to widen its access without widening the constructor\u0027s access. You must AT the constructor too: \"public net.minecraft.server.MinecraftServer$ReloadableResources \u003cinit\u003e(Lnet/minecraft/server/packs/resources/CloseableResourceManager;Lnet/minecraft/server/ReloadableServerResources;)V\""
+  },
+  {
+    "problemId": {
+      "id": "invalid-at",
+      "displayName": "Invalid",
+      "group": {
+        "id": "access-transformer",
+        "displayName": "Access Transformers"
+      }
+    },
+    "severity": "WARNING",
+    "location": {
+      "file": "C:\\Users\\xdra1\\IdeaProjects\\untitled23\\versions\\1.19.2\\build\\tmp\\neoformruntime\\20260406-142602_transformSources\\ats\\accesstransformer.cfg",
+      "line": 338
+    },
+    "contextualLabel": "Access transformer attempted to make m_43923_ of net.minecraft.world.item.crafting.Ingredient final. Was non-final"
+  },
+  {
+    "problemId": {
+      "id": "invalid-at",
+      "displayName": "Invalid",
+      "group": {
+        "id": "access-transformer",
+        "displayName": "Access Transformers"
+      }
+    },
+    "severity": "WARNING",
+    "location": {
+      "file": "C:\\Users\\xdra1\\IdeaProjects\\untitled23\\versions\\1.19.2\\build\\tmp\\neoformruntime\\20260406-142602_transformSources\\ats\\accesstransformer.cfg",
+      "line": 350
+    },
+    "contextualLabel": "Access transformer targeting record class net.minecraft.world.level.biome.Biome$ClimateSettings attempts to widen its access without widening the constructor\u0027s access. You must AT the constructor too: \"public net.minecraft.world.level.biome.Biome$ClimateSettings \u003cinit\u003e(Lnet/minecraft/world/level/biome/Biome$Precipitation;FLnet/minecraft/world/level/biome/Biome$TemperatureModifier;F)V\""
+  },
+  {
+    "problemId": {
+      "id": "missing-target",
+      "displayName": "Missing Target",
+      "group": {
+        "id": "access-transformer",
+        "displayName": "Access Transformers"
+      }
+    },
+    "severity": "ERROR",
+    "location": {
+      "file": "C:\\Users\\xdra1\\IdeaProjects\\untitled23\\versions\\1.19.2\\build\\tmp\\neoformruntime\\20260406-142602_transformSources\\ats\\accesstransformer.cfg",
+      "line": 510
+    },
+    "contextualLabel": "The target net.minecraft.world.level.levelgen.NoiseGeneratorSettings METHOD m_64474_(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App; does not exist."
+  }
+]

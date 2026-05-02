@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "structurecompassfix"
+version = "1.0.2"
+displayName = "Structure Compass Fix"
+description = "A Prism multi-version mod."
+
+[[dependencies.structurecompassfix]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.structurecompassfix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "structurecompassfix.mixins.json"

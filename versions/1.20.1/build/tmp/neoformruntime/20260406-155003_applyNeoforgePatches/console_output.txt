@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+ - -jar
+ - /home/a/.gradle/caches/modules-2/files-2.1/io.codechicken/DiffPatch/2.0.0.36/5b32f9baa0c0371c0dc80a3b88794960af0c6b44/DiffPatch-2.0.0.36-all.jar
+ - /home/a/.gradle/caches/neoformruntime/intermediate_results/patch_dc0c92ec0f9394cc62eb5da55804f9b03f6a7f84_output.zip
+ - /home/a/.gradle/caches/modules-2/resources-2.1/84/18348714539741138c27a4af02a0b0e055591a40/forge-1.20.1-47.4.18-userdev.jar
+ - --prefix
+ - patches/
+ - --patch
+ - --archive
+ - ZIP
+ - --output
+ - ./output.zip
+ - --log-level
+ - WARN
+ - --mode
+ - OFFSET
+ - --archive-rejects
+ - ZIP
+ - --reject
+ - ./outputRejects.zip
+ - --base-path-prefix
+ - a/
+ - --modified-path-prefix
+ - b/
+--------------------------------------------------------------------------------
+

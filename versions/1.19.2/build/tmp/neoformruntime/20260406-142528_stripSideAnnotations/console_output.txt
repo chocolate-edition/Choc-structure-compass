@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Program Files\BellSoft\LibericaJDK-21\bin\java.exe
+ - -jar
+ - C:\Users\xdra1\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.7\3d41564f78f123d64573cae7948014baf3aaba3f\mergetool-1.1.7-fatjar.jar
+ - --strip
+ - --input
+ - C:\Users\xdra1\.gradle\caches\neoformruntime\intermediate_results\rename_f78b1dbaabe6ba148d906a001e68ca5f21ea8dad_output.jar
+ - --output
+ - ./output.jar
+ - --data
+ - sas\forge.sas
+--------------------------------------------------------------------------------
+
+Input:  C:\Users\xdra1\.gradle\caches\neoformruntime\intermediate_results\rename_f78b1dbaabe6ba148d906a001e68ca5f21ea8dad_output.jar
+Output: C:\Users\xdra1\IdeaProjects\untitled23\versions\1.19.2\build\tmp\neoformruntime\20260406-142528_stripSideAnnotations\.\output.jar
+Data:   C:\Users\xdra1\IdeaProjects\untitled23\versions\1.19.2\build\tmp\neoformruntime\20260406-142528_stripSideAnnotations\sas\forge.sas

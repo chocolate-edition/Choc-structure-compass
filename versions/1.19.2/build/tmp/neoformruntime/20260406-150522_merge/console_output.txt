@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - /home/a/.gradle/jdks/eclipse_adoptium-17-amd64-linux.2/bin/java
+ - -jar
+ - /home/a/.gradle/caches/neoformruntime/artifacts/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-fatjar.jar
+ - --client
+ - /home/a/.gradle/caches/neoformruntime/intermediate_results/stripClient_5466e095f4ac996de006622b963c3237843d3691_output.jar
+ - --server
+ - /home/a/.gradle/caches/neoformruntime/intermediate_results/stripServer_16155d29701b122c7ef37b43de40f0bcd9c5f7b1_output.jar
+ - --ann
+ - 1.19.2
+ - --output
+ - ./output.jar
+ - --inject
+ - false
+--------------------------------------------------------------------------------
+

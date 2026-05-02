@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Program Files\BellSoft\LibericaJDK-21\bin\java.exe
+ - -jar
+ - C:\Users\xdra1\.gradle\caches\modules-2\files-2.1\io.codechicken\DiffPatch\2.0.0.36\5b32f9baa0c0371c0dc80a3b88794960af0c6b44\DiffPatch-2.0.0.36-all.jar
+ - C:\Users\xdra1\.gradle\caches\neoformruntime\intermediate_results\patch_b28372c6a997692b6f0ee08dc71fbac0e5f82af1_output.zip
+ - C:\Users\xdra1\.gradle\caches\modules-2\resources-2.1\56\2fe389f9c971a39b2981ae3c590161e42038b776\forge-1.19.2-43.4.4-userdev.jar
+ - --prefix
+ - patches/
+ - --patch
+ - --archive
+ - ZIP
+ - --output
+ - ./output.zip
+ - --log-level
+ - WARN
+ - --mode
+ - OFFSET
+ - --archive-rejects
+ - ZIP
+ - --reject
+ - ./outputRejects.zip
+ - --base-path-prefix
+ - a/
+ - --modified-path-prefix
+ - b/
+--------------------------------------------------------------------------------
+
